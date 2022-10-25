@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Im very bored</title>
+    <style>
+        h1 {
+            background-color:green;
+            color:black;
+        }
+
+        #image {
+            display: none;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Don't Click The Button</h1><div>
+        <img id="urmom" scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRlwOPTEIr5uR8-ErXf4pl-BSM6OCnUo44FDEsq3Jrjiu3UoxcdJP7vlpMi9f7tapxE0&usqp=CAU">
+        </div>
+        <div>
+            <button type="button" onclick="show()" id="urdad">Dont Click Me</button>
+        </div>
+        <script>
+            function show() {
+                document.getElementById('urmom')
+                .style.display = "block" 
+
+                document.getElementById('urdad')
+                .style.display = "none"
+            }
+        </script>
+    </body>
+</html>
